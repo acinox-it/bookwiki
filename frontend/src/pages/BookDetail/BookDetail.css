@@ -1,0 +1,142 @@
+.book-detail-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  transition: background 0.2s;
+}
+
+.back-button:hover {
+  background: #2980b9;
+}
+
+.book-detail-content {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 3rem;
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-detail-image {
+  width: 100%;
+}
+
+.book-detail-image img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.book-detail-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.book-detail-title {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.book-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.meta-item {
+  display: flex;
+  gap: 1rem;
+}
+
+.meta-label {
+  font-weight: 600;
+  color: #7f8c8d;
+  min-width: 80px;
+}
+
+.meta-value {
+  color: #2c3e50;
+}
+
+.book-tags-section h3,
+.book-summary-section h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin: 0 0 1rem 0;
+}
+
+.book-detail-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.detail-tag {
+  padding: 0.5rem 1rem;
+  background: #3498db;
+  color: white;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.book-summary {
+  line-height: 1.8;
+  color: #34495e;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.loading-detail,
+.error-detail {
+  text-align: center;
+  padding: 3rem;
+}
+
+.error-detail h2 {
+  color: #e74c3c;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 968px) {
+  .book-detail-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .book-detail-image {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .book-detail-page {
+    padding: 1rem;
+  }
+  
+  .book-detail-title {
+    font-size: 2rem;
+  }
+  
+  .book-detail-content {
+    padding: 1.5rem;
+  }
+}
