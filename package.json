@@ -1,0 +1,20 @@
+{
+  "name": "bookwiki",
+  "version": "1.0.0",
+  "description": "BookWiki - A full-stack technical books library",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "start:backend": "cd backend && npm start",
+    "docker:build": "docker-compose build",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["books", "library", "react", "express", "fullstack"],
+  "author": "acinox",
+  "license": "ISC"
+}

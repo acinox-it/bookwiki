@@ -1,0 +1,65 @@
+# Node modules
+**/node_modules/
+**/.pnp/
+.pnp.js
+
+# Build output
+**/dist/
+**/build/
+**/.next/
+**/.turbo/
+**/.parcel-cache/
+**/.vite/
+**/.cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and editors
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# React specific
+**/coverage/
+**/public/static/
+**/public/assets/
+**/react-error-overlay/
+
+# Express specific
+**/tmp/
+**/uploads/
+**/logs/
+
+# Testing
+coverage/
+jest/
+cypress/screenshots/
+cypress/videos/
+
+# Misc
+*.tgz
+*.swp
+*.bak
+*.tmp
+*.orig
+
+# TypeScript
+*.tsbuildinfo
+
+# lockfiles
+package-lock.json
+
