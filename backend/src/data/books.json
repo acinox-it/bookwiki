@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "year": 2008,
+    "isbn": "978-0132350884",
+    "tags": ["Programming", "Best Practices", "Software Engineering"],
+    "summary": "A Handbook of Agile Software Craftsmanship. This book teaches you how to write code that is clean, readable, and maintainable. It covers principles, patterns, and practices of writing clean code with numerous examples.",
+    "coverUrl": "https://m.media-amazon.com/images/I/51E2055ZGUL._SL500_.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Design Patterns",
+    "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    "year": 1994,
+    "isbn": "978-0201633610",
+    "tags": ["Programming", "Design Patterns", "Object-Oriented"],
+    "summary": "Elements of Reusable Object-Oriented Software. The Gang of Four book that introduced 23 classic software design patterns. Essential reading for understanding how to design flexible and reusable object-oriented software.",
+    "coverUrl": "https://m.media-amazon.com/images/I/51szD9HC9pL._SL500_.jpg"
+  },
+  {
+    "id": 3,
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt, David Thomas",
+    "year": 2019,
+    "isbn": "978-0135957059",
+    "tags": ["Programming", "Career Development", "Best Practices"],
+    "summary": "Your Journey to Mastery. A comprehensive guide to becoming a better programmer. Covers topics from code organization and design to career development and continuous learning.",
+    "coverUrl": "https://m.media-amazon.com/images/I/71f1jieYHNL._SL500_.jpg"
+  },
+  {
+    "id": 4,
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "year": 2008,
+    "isbn": "978-0596517748",
+    "tags": ["JavaScript", "Web Development", "Programming"],
+    "summary": "Unearthing the Excellence in JavaScript. This book explores the beautiful, elegant, highly expressive features of JavaScript while avoiding the bad parts. A must-read for JavaScript developers.",
+    "coverUrl": "https://m.media-amazon.com/images/I/7185IMvz88L._SL1500_.jpg"
+  },
+  {
+    "id": 5,
+    "title": "You Don't Know JS",
+    "author": "Kyle Simpson",
+    "year": 2015,
+    "isbn": "978-1491924464",
+    "tags": ["JavaScript", "Web Development", "Programming"],
+    "summary": "A deep dive into the core mechanisms of JavaScript. This series goes beyond common practices to truly understand how JavaScript works at a fundamental level.",
+    "coverUrl": "https://m.media-amazon.com/images/I/41T5H8u7fUL._SL500_.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "year": 2018,
+    "isbn": "978-0134757599",
+    "tags": ["Programming", "Best Practices", "Software Engineering"],
+    "summary": "Improving the Design of Existing Code. A comprehensive guide to refactoring with a catalog of proven refactorings. Learn how to improve code structure without changing behavior.",
+    "coverUrl": "https://m.media-amazon.com/images/I/41LBzpPXCOL._SL500_.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Domain-Driven Design",
+    "author": "Eric Evans",
+    "year": 2003,
+    "isbn": "978-0321125217",
+    "tags": ["Software Architecture", "Design", "Enterprise"],
+    "summary": "Tackling Complexity in the Heart of Software. Learn how to connect the implementation to an evolving model through domain-driven design patterns and practices.",
+    "coverUrl": "https://m.media-amazon.com/images/I/61ztlXgCmpL._SL500_.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Building Microservices",
+    "author": "Sam Newman",
+    "year": 2021,
+    "isbn": "978-1492034025",
+    "tags": ["Software Architecture", "Microservices", "DevOps"],
+    "summary": "Designing Fine-Grained Systems. A comprehensive guide to building, deploying, and managing microservices. Covers distributed systems, service boundaries, and organizational considerations.",
+    "coverUrl": "https://m.media-amazon.com/images/I/81dmHMoJDjL._SL1500_.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+    "year": 2009,
+    "isbn": "978-0262033848",
+    "tags": ["Algorithms", "Computer Science", "Data Structures"],
+    "summary": "The comprehensive textbook covering a broad range of algorithms in depth. Widely used in universities and considered the definitive guide to algorithms.",
+    "coverUrl": "https://m.media-amazon.com/images/I/61Pgdn8Ys-L._SL500_.jpg"
+  },
+  {
+    "id": 10,
+    "title": "The DevOps Handbook",
+    "author": "Gene Kim, Jez Humble, Patrick Debois, John Willis",
+    "year": 2016,
+    "isbn": "978-1942788003",
+    "tags": ["DevOps", "Software Engineering", "Operations"],
+    "summary": "How to Create World-Class Agility, Reliability, and Security in Technology Organizations. A practical guide to implementing DevOps principles and practices.",
+    "coverUrl": "https://m.media-amazon.com/images/I/71x9IcFp9IL._SL1500_.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Clean Architecture",
+    "author": "Robert C. Martin",
+    "year": 2017,
+    "isbn": "978-0134494166",
+    "tags": ["Software Architecture", "Best Practices", "Design"],
+    "summary": "A Craftsman's Guide to Software Structure and Design. Learn the universal rules of software architecture and how to design systems that stand the test of time.",
+    "coverUrl": "https://m.media-amazon.com/images/I/41SH-SvWPxL._SL500_.jpg"
+  },
+  {
+    "id": 12,
+    "title": "React Design Patterns and Best Practices",
+    "author": "Michele Bertoli",
+    "year": 2020,
+    "isbn": "978-1800560444",
+    "tags": ["React", "Web Development", "JavaScript", "Design Patterns"],
+    "summary": "Build modular applications that are scalable, maintainable, and powerful. Learn React patterns, best practices, and modern approaches to building React applications.",
+    "coverUrl": "https://m.media-amazon.com/images/I/9110OOOm9AL._SL1500_.jpg"
+  }
+]
